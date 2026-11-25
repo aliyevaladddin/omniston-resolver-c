@@ -2,7 +2,7 @@
 
 STON.fi Omniston resolver client in pure C (`nghttp2` + `OpenSSL`). Bring your own pricing engine and settlement executor.
 
-Built by **[Aladdin Aliyev](https://aladdinai.cc)** **[WebMesh](https://ton.app/devtools/webmesh?id=6048)**.
+Built by **[WebMesh](https://ton.app/devtools/webmesh?id=6048)**.
 
 - Zero heap allocations on the RFQ quote and event parsing paths
 - gRPC over HTTP/2 + TLS (`ResolverRpc/Open` bidi stream), auto-reconnect
